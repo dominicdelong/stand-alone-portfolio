@@ -1,0 +1,191 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+    
+}
+
+/* Gallery Styling */
+/* Just for Class*/
+figure img {
+    width: 300px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .fig1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+
+.fig2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    
+}
+
+
+
+ .fig3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+figure {
+    background: WhiteSmoke;
+    
+    padding: 10px;
+    width: 30%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lg-backdrop {
+    background: Gainsboro;
+}
+
+.lg-image {
+    box-shadow: 0 0 50px FloralWhite;
+}
+
+/* Captions */
+.caption {
+    display: none;
+}
+
+
+/* light box styling */
+#lg-counter{
+    color: cornflowerblue;
+}
+
+.lg-outer .lg-thumb-item{
+    border: 4px solid Gainsboro 
+}
+
+.lg-sub-html, .lg-toolbar{
+    background-color: 192,192,192;
+    opacity: .5
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+    border-color: CornflowerBlue;
+}
+
+.lg-outer .lg-toogle-thumb {
+    background-color: lightgrey;
+    border-radius: 10px 10px 10px 10px;
+    color: cornflowerblue;
+}
+    
+.lg-actions .lg-next, .lg-actions .lg-prev {
+    background-color: lightgrey;
+    border-radius: 10px;
+    color: cornflowerblue;
+    
+}
+
+.lg-outer .lg-thumb-outer {
+    background-color: dimgrey;
+}
+
+.lg-toolbar .lg-icon {
+    color: cornflowerblue;
+    
+}
+/* page style */
+  body {
+       background: BurlyWood;
+  }
+    
+  header{
+      width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size:5em;
+    background-color: DarkGray;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    font-family: omnes-pro, sans-serif;
+font-style: normal;
+font-weight: 500;
+    
+}
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+    header{
+        font-size: 2em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
+        
+    }
+  body {
+       background: BurlyWood;
+  }
+    
+    
+  
+    figure {
+            width: 100%;
+    }
+    
+    .fig2{
+        width: 350px
+    }
+    
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+
+    
+    figure {
+            width: 50%;
+    }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  
+
+ 
+ main {
+    margin: 0 auto;
+    width: 95%;
+ }    
+    
+    
+}
