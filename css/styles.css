@@ -20,9 +20,10 @@ a:link {
   color: cornflowerblue;
 }
 
+
 /* ---- Navigation ---- */
 header {
-	background: ;
+	
 	width: 100%;
 	margin-top: 127px;
     text-align: center;
@@ -129,7 +130,6 @@ img {
 
 .hover {
 	position: relative;
-	margin:1em;
     color: transparent;
 }
 .hide {
@@ -147,7 +147,6 @@ color: white;
 .hover:hover h2 {
     letter-spacing: 2px;
 	opacity: 1;
-    transition: 2s;
 }
 
 
@@ -158,8 +157,8 @@ MEDIA QUERIES
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) { 
 
-    .main-nav{
-        
+    body{
+        background-color: floralwhite
     }
   
 }
